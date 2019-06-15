@@ -1,0 +1,19 @@
+package survey.backend.model;
+
+public enum Film {
+
+    THE_MOTION_PICTURE,
+    THE_WRATH_OF_KHAN,
+    THE_SEARCH_FOR_SPOCK,
+    THE_VOYAGE_HOME,
+    THE_FINAL_FRONTIER,
+    THE_UNDISCOVERED_COUNTRY,
+    GENERATIONS,
+    FIRST_CONTACT,
+    INSURRECTION,
+    NEMESIS,
+    STAR_TREK_2009,
+    INTO_DARKNESS,
+    BEYOND;
+
+}

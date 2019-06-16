@@ -7,6 +7,6 @@ public enum Ship {
     VOYAGER,
     VULCAN_CRUISER,
     ROMULAN_BIRD_OF_PREY,
-    BORD_CUBE;
+    BORD_CUBE
 
 }

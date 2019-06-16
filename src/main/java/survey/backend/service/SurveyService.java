@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 @Service
 public class SurveyService {
 
-    private SurveyRepository surveyRepository;
+    private final SurveyRepository surveyRepository;
 
     public SurveyService(SurveyRepository surveyRepository) {
         this.surveyRepository = surveyRepository;
@@ -44,7 +44,7 @@ public class SurveyService {
 
     }
 
-    public SurveyCommand convertSurveyToCommand(Survey survey){
+    private SurveyCommand convertSurveyToCommand(Survey survey){
 
         return SurveyCommand.builder()
                 .series(survey.getSeries().name())

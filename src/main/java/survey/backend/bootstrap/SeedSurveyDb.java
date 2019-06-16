@@ -18,14 +18,14 @@ public class SeedSurveyDb implements CommandLineRunner {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(SeedSurveyDb.class);
 
-    private SurveyRepository surveyRepository;
+    private final SurveyRepository surveyRepository;
 
     public SeedSurveyDb(SurveyRepository surveyRepository) {
         this.surveyRepository = surveyRepository;
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
 
         if(surveyRepository.findAll().size() == 0){
 

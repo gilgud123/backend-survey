@@ -14,6 +14,6 @@ public enum Film {
     NEMESIS,
     STAR_TREK_2009,
     INTO_DARKNESS,
-    BEYOND;
+    BEYOND
 
 }

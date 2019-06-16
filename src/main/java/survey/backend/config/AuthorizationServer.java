@@ -22,7 +22,7 @@ import org.springframework.security.oauth2.provider.token.store.jwk.JwkTokenStor
 public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
 
     private static final String CLIENT_ID = "survey";
-    private static final String CLIENT_SECRET = "secret";
+    private static final String CLIENT_SECRET = "$2a$10$jXpENQlTEQ5ecn90ugTyxOAotZOox7o3Kyign2NT//RZZCokPN5h2";
     private static final String GRANT_TYPE = "password";
     private static final String AUTHORIZATION_CODE = "authorization_code";
     private static final String REFRESH_TOKEN = "refresh_token";
